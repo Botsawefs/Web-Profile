@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+<title>Prisma Media</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="#top" class="nav__mark">
+    <svg class="nav__tri" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 36H0L20 0Z" fill="currentColor"/></svg>
+    Prisma<span>Media</span>
+  </a>
+  <button class="nav__burger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#team">Team</a>
+    <a href="#contact" class="nav__cta">Start a project</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__text">
+    <span class="eyebrow">Creative &amp; Digital Marketing Agency</span>
+    <h1 class="hero__title">
+      <span class="line">We Make</span>
+      <span class="line spectrum-word" data-text="digital spectrum.">RAINBOWS</span>
+      <span class="line">for You!</span>
+    </h1>
+    <p class="hero__sub">We take ideas &mdash; clear, half-formed, or waiting for the right moment &mdash; and transform them into brand experiences through design, content and digital marketing.</p>
+    <div class="hero__actions">
+      <a href="#contact" class="btn btn--primary">Start a project</a>
+      <a href="#services" class="btn btn--ghost">See what we do</a>
+    </div>
+  </div>
+
+  <div class="hero__visual">
+    <video 
+    class="hero__fox"
+    autoplay
+    muted 
+    playsinline 
+    poster="assets/fox_hero.jpg"
+    onmouseover="this.play()"
+    onmouseout="this.pause()">
+      <source src="videos/fox_anim.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+  </div>
+</section>
+
+<!-- MARQUEE — signature strip, real services -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Graphic Design</span><i>&#9670;</i><span>Branding &amp; Identity</span><i>&#9670;</i><span>Content Creation</span><i>&#9670;</i><span>Photography</span><i>&#9670;</i><span>Videography</span><i>&#9670;</i><span>Social Media</span><i>&#9670;</i><span>Web Development</span><i>&#9670;</i><span>SEO</span><i>&#9670;</i>
+    <span>Graphic Design</span><i>&#9670;</i><span>Branding &amp; Identity</span><i>&#9670;</i><span>Content Creation</span><i>&#9670;</i><span>Photography</span><i>&#9670;</i><span>Videography</span><i>&#9670;</i><span>Social Media</span><i>&#9670;</i><span>Web Development</span><i>&#9670;</i><span>SEO</span><i>&#9670;</i>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about__text">
+    <span class="eyebrow">About</span>
+    <h2>Prisma Media</h2>
+    <p>The name was inspired by a prism &mdash; an object that transforms a single beam of white light into a vibrant spectrum of colour. That simple transformation reflects what we do every day.</p>
+    <p>Every business starts with an idea. Some are clear, some are still developing, and some are waiting for the right opportunity to shine. At Prisma Media, we take those ideas and transform them into meaningful brand experiences through creativity, content, design, and digital marketing.</p>
+    <p>Just as a prism reveals the hidden colours within light, we help reveal the full potential of a business by bringing its story, personality, and vision to life.</p>
+  </div>
+  <div class="about__cards">
+    <div class="card1">
+      <span class="card__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 8l2 4-2 4-2-4 2-4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <h3>Our Mission</h3>
+      <p>Guiding businesses with creativity, strategy, and digital innovation.</p>
+    </div>
+    <div class="card2">
+      <span class="card__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/></svg>
+      </span>
+      <h3>Our Vision</h3>
+      <p>To become the creative partner behind brands that inspire, connect, and grow.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-head">
+    <span class="eyebrow eyebrow--light" style="font-size: 300%;">Our Services</span>
+    <h3>From your first idea to your next success.</h3>
+    <p class="section-head__sub">The creative solutions that help your business stand out and grow.</p>
+  </div>
+
+  <div class="services__grid">
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 19l7-7 3 3-7 7-3-3z" stroke="currentColor" stroke-width="1.5"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" stroke="currentColor" stroke-width="1.5"/><path d="M2 2l7.586 7.586" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="11" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+      <h3>Graphic Design</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3 6 6 1-4.5 4.5L17.5 20 12 17l-5.5 3 1-6.5L3 9l6-1 3-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      <h3>Branding &amp; Identity</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M4 20l4-1 10-10-3-3L5 16l-1 4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      <h3>Content Creation</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M8 6l1.6-2.5h4.8L16 6" stroke="currentColor" stroke-width="1.5"/></svg>
+      <h3>Business Photography</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 10l6-3v10l-6-3" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      <h3>Videography</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M8 10h8M8 14h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M21 12c0 4.4-4 8-9 8-1.4 0-2.7-.3-3.9-.8L3 20l1.1-4.2C3.4 14.5 3 13.3 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke="currentColor" stroke-width="1.5"/></svg>
+      <h3>Social Media Management</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 11l18-7-7 18-3-8-8-3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      <h3>Digital Advertising</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 8h20" stroke="currentColor" stroke-width="1.5"/><path d="M7 13l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h3>Website Development</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M8 12l2 2 4-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h3>SEO</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+    <div class="service">
+      <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c2.5 2.6 4 6 4 9s-1.5 6.4-4 9c-2.5-2.6-4-6-4-9s1.5-6.4 4-9z" stroke="currentColor" stroke-width="1.5"/></svg>
+      <h3>Booking Platform Management</h3>
+      <p class="service__desc">Professional branding and visual assets tailored to your unique identity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients" id="clients">
+  <div class="section-head">
+    <span class="eyebrow">Our Clients</span>
+    <h2>Trusted by businesses across Sri Lanka and beyond.</h2>
+  </div>
+
+  <div class="clients__list">
+    <div class="clients__row">
+      <h3>Hospitality &amp; Tourism</h3>
+      <p>National Holiday Resort, Mounts Edge Regency, Sorabora Gedara, Summer Bliss Hotels, Memory Resort</p>
+    </div>
+    <div class="clients__row">
+      <h3>Restaurants &amp; Caf&eacute;s</h3>
+      <p>Yummy House Restaurant, Indian Summer, Global Kitchen, Merger King, CoolHut</p>
+    </div>
+    <div class="clients__row">
+      <h3>Healthcare &amp; Wellness</h3>
+      <p>Shanthi Channeling Center, Vitiligo Sri Lankan Treatment, ProCare Ayush, Glorious Support Services</p>
+    </div>
+    <div class="clients__row">
+      <h3>Retail &amp; Showrooms</h3>
+      <p>Phonomania, Suncare Pharmacy, Yamaha, Chemical Solutions</p>
+    </div>
+    <div class="clients__row">
+      <h3>Engineering &amp; Industrial</h3>
+      <p>Seldo Industries, Eravur Motors, Athugala Engineers, Kommnet Technologies</p>
+    </div>
+    <div class="clients__row">
+      <h3>Professional Services</h3>
+      <p>PHS, Onzo Lanka International, Omekro Sounds, VibeMakers</p>
+    </div>
+  </div>
+
+  <p class="clients__note">Proudly serving businesses across Sri Lanka, the United States, the United Kingdom, New Zealand, Australia, and beyond.</p>
+</section>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="section-head">
+    <span class="eyebrow">Founder &amp; Team</span>
+    <h2>Five people. One studio.</h2>
+  </div>
+
+  <div class="team__founder">
+    <div class="team__founder-info">
+      <h3>Thilina Jayasinghe</h3>
+      <span class="team__role">Founder &amp; Digital Marketer</span>
+      <p>With over 9 years of experience, Thilina leads Prisma Media with a passion for helping businesses through creativity, strategy, and innovative digital solutions.</p>
+      <div class="team__cols">
+        <div>
+          <h4>Qualifications</h4>
+          <ul><li>HND in Electrical Engineering</li><li>Diploma in Digital Marketing (SLIM)</li></ul>
+        </div>
+        <div>
+          <h4>Expertise</h4>
+          <ul><li>Brand Strategy</li><li>Graphic Design</li><li>Digital Marketing</li><li>Content, Photography &amp; Videography</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="team__grid">
+    <div class="team__item">
+      <h4>Manushi Wathsala</h4>
+      <span>Graphic Designer</span>
+    </div>
+    <div class="team__item">
+      <h4>Navindu Rashmika</h4>
+      <span>Graphic Designer</span>
+    </div>
+    <div class="team__item">
+      <h4>Vishva Dinisuru</h4>
+      <span>Graphic Designer</span>
+    </div>
+    <div class="team__item">
+      <h4>Janith Malinga</h4>
+      <span>Web Developer</span>
+    </div>
+    <div class="team__item">
+      <h4>Nipuni Wanasinghe</h4>
+      <span>Architectural Designer</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__text">
+      <span class="eyebrow eyebrow--light">Start a Project</span>
+      <h2>Let's build something remarkable.</h2>
+      <p>Whether you're launching a new business, growing an established brand, or looking to strengthen your digital presence, Prisma Media is ready to help.</p>
+      <a href="mailto:officemail.prisma@gmail.com" class="contact__email">officemail.prisma@gmail.com</a>
+
+      <div class="contact__grid">
+        <div>
+          <h4>Phone</h4>
+          <p>+94 766 280 282<br>+94 70 7 333 700<br>+94 55 490 1000</p>
+        </div>
+        <div>
+          <h4>Website &amp; Social</h4>
+          <p>www.prismamedia.lk<br>@PrismaMediaLK</p>
+        </div>
+        <div>
+          <h4>Office</h4>
+          <p>Mahiyanganaya, Sri Lanka</p>
+        </div>
+        <div>
+          <h4>Founder</h4>
+          <p>Thilina Jayasinghe<br>+94 70 284 1811</p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/fox_contact.png" alt="Friendly orange fox mascot in business attire standing beside contact details on a clean, welcoming contact section background"
+      class="contact_fox">
+  </div>
+</section>
+
+<footer class="footer">
+  <a href="#top" class="footer__mark">
+    <svg class="nav__tri" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 36H0L20 0Z" fill="currentColor"/></svg>
+    Prisma Media
+  </a>
+  <span class="footer__tag">Selling Refrigerators to Eskimos</span>
+  <span class="footer__copy">&copy; 2026 Chakra Digital</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
